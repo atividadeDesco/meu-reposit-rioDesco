@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Atividade Prática Descomplica.</title>
+</head>
+<body>
+    <header class="container">
+        <h1>Criando textos com lorem.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> 
+            Nobis assumenda architecto <br> error ut dolore nihil, iure consectetur? Corrupti id commodi nihil aliquid sint? <br>
+            Quibusdam nostrum saepe repellat, dolorum placeat laborum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+            Nulla porro saepe explicabo <br> 
+            maxime optio voluptatibus quisquam cupiditate laudantium vitae eveniet officiis delectus, <br>
+            repellat corrupti numquam est alias? Quisquam, expedita laborum.</p>
+        <p><a href="https://www.w3.org/" target="_blank">Site Oficial da W3C.</a></p> <br>
+    </header>
+
+
+    <section class="container">
+        <h2>Ofertas exclusivas com Lorem.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Cumque minus vel accusantium voluptates  <br> velit ducimus porro laborum omnis molestiae quibusdam adipisci odio ipsa, <br> saepe dignissimos quos incidunt, libero inventore eius.</p> <br>
+        
+    </section>
+    <section class="container">
+        <table class="table">
+            <caption>Dados da empresa.</caption>
+            <thead>
+                <tr>
+                    <th>Compania</th>
+                    <th>Contato</th>
+                    <th>País</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>R&V casa de analise.</td>
+                    <td>Rodolfo e Viviany.</td>
+                    <td>Brazil.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="container">
+        <h2>Login do cliente.</h2>
+        <form method="GET" action="">
+            <label>Nome.</label><br>
+            <input type="text" name="Nome"><br><br>
+            <label>Email.</label><br>
+            <input type="text" name="Email"><br><br>
+        </form>
+    </section>
+
+    <section class="container">
+        <fieldset>
+            <legend>Qual serviço deseja escolher?</legend>
+            <input type="checkbox" name="hospedagem">Hospedagem. <br>
+            <input type="checkbox" name="aluguelveic">Aluguel de veículos. <br>
+            <input type="checkbox" name="passagens">Compra de passagens. <br>
+        </fieldset>
+    </section>
+    <section class="container">
+        <fieldset>
+            <legend>Qual forma de pagamento?</legend>
+            <input type="radio" name="formPag">Pix. <br>
+            <input type="radio" name="formPag">Cartão de crédito. <br>
+            <input type="radio" name="formPag">Boleto Bancário. <br>
+        </fieldset> <br>
+    </section>
+
+    <section class="container">
+        <fieldset>
